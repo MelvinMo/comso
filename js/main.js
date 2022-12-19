@@ -24,9 +24,8 @@
 
         const body = document.querySelector('body');
         const preloader = document.querySelector('#preloader');
-        const info = document.querySelector('.s-info');
 
-        if (!(preloader && info)) return;
+        if (!(preloader)) return;
 
         html.classList.add('ss-preload');
 
