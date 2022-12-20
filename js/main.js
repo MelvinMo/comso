@@ -92,7 +92,7 @@
                 if (days <= 9) {
                     days = '00' + days;
                 } else { 
-                     days = '0' + days;
+                     days = days;
                     /*days = '0' + days;*/
                 }
             }
